@@ -1,0 +1,20 @@
+Aspect ratio optimized (est_aspect_ratio = 1) -> both components of fc are estimated (DEFAULT).
+Principal point optimized (center_optim=1) - (DEFAULT). To reject principal point, set center_optim=0
+Skew not optimized (est_alpha=0) - (DEFAULT)
+Distortion not fully estimated (defined by the variable est_dist):
+     Sixth order distortion not estimated (est_dist(5)=0) - (DEFAULT) .
+
+Main calibration optimization procedure - Number of images: 29
+Gradient descent iterations: 1...2...3...4...5...6...7...8...9...10...11...12...13...14...done
+Estimation of uncertainties...done
+
+
+Calibration results after optimization (with uncertainties):
+
+Focal Length:          fc = [ 462.81180   462.83409 ] +/- [ 1.62706   1.46002 ]
+Principal point:       cc = [ 314.65596   187.42460 ] +/- [ 1.69301   1.61381 ]
+Skew:             alpha_c = [ 0.00000 ] +/- [ 0.00000  ]   => angle of pixel axes = 90.00000 +/- 0.00000 degrees
+Distortion:            kc = [ 0.11571   -0.19974   -0.00169   -0.00220  0.00000 ] +/- [ 0.00631   0.01850   0.00107   0.00155  0.00000 ]
+Pixel error:          err = [ 0.10599   0.13486 ]
+
+Note: The numerical errors are approximately three times the standard deviations (for reference).
